@@ -3,6 +3,11 @@ name: Build Android APKs
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Automatischer monatlicher Health-Check-Build (am 1. des Monats um 04:00 UTC)
+    - cron: '0 4 1 * *'
   workflow_dispatch:
 
 permissions:

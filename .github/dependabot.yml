@@ -1,0 +1,33 @@
+version: 2
+updates:
+  # GitHub Actions Workflows (actions/checkout, setup-java, upload-artifact etc.)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "ci(actions)"
+
+  # Gradle Dependencies für Wissel Info (libs.versions.toml)
+  - package-ecosystem: "gradle"
+    directory: "/wissel-info"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "deps(wissel)"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+
+  # Gradle Dependencies für Rheurdt Info (libs.versions.toml)
+  - package-ecosystem: "gradle"
+    directory: "/rheurdt-info"
+    schedule:
+      interval: "monthly"
+    commit-message:
+      prefix: "deps(rheurdt)"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
