@@ -51,7 +51,7 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.osmdroid.android)
-    implementation("androidx.work:work-runtime-ktx:2.9.1")
+    implementation("androidx.work:work-runtime-ktx:2.12.0")
 
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
