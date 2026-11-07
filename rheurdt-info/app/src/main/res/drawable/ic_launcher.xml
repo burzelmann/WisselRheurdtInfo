@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Forest Green Background (Ökodorf Rheurdt) -->
+    <path
+        android:fillColor="#0D3B26"
+        android:pathData="M0,0h108v108h-108z"/>
+    <!-- Hills of Schaephuysen / Waves -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M10,74 C26,58 46,82 64,68 C80,56 94,76 98,72 L98,96 L10,96 Z"/>
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M10,80 C30,68 50,86 70,76 C86,68 94,82 98,78 L98,96 L10,96 Z"/>
+    <!-- Gold Sun / Leaf Motif -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M54,26 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"/>
+    <!-- Letter R in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,38 L54,38 C60,38 64,41 64,46 C64,51 60,54 54,54 L46,54 L46,74 L38,74 Z M46,44 L46,48 L53,48 C55,48 56.5,47.2 56.5,46 C56.5,44.8 55,44 53,44 Z M54,54 L66,74 L57,74 L47,54 Z"/>
+</vector>
